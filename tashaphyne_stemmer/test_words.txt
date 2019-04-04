@@ -1,0 +1,5 @@
+word0: كتب
+word1: عالج
+word2: كلما
+word3: عرب
+word4: جذيع

@@ -1,0 +1,2 @@
+PyArabic==0.6.5
+Tashaphyne==0.3.2
