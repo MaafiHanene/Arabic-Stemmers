@@ -1,4 +1,4 @@
-from tashaphyne.stemming import ArabicLightStemmer
+from nltk.stem.isri import ISRIStemmer
 
 
 def stem(string):
@@ -7,14 +7,14 @@ def stem(string):
     words = string.split()
     stems_dict = {}
     count = 0
-    
-    arabic_light_stemmer = ArabicLightStemmer()
+
+    isri_stemmer = ISRIStemmer()
 
 
     for word in words:
         word_count = 'word'+str(count)
         # stem word
-        stem_word = arabic_light_stemmer.light_stem(word)
+        stem_word = isri_stemmer.stem(word)
         # add new stem to dict
         stems_dict[word_count] = stem_word
         count = count + 1

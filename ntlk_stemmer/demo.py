@@ -1,8 +1,8 @@
-import tashaphyneStemmer
+import ntlkIsriStemmer
 
 string = u'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
 
-stems_dict = tashaphyneStemmer.stem(string)
+stems_dict = ntlkIsriStemmer.stem(string)
 
 file = open('output.txt', 'w+', encoding="utf-8")
 
