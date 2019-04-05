@@ -23,23 +23,23 @@ class FarasaStemmer():
 
         for folder, subs, files in os.walk(('.').encode( 'utf-8')):
 
-                tmpLemma = os.path.join('.', 'tmpLemma.txt')
+                tmpStem = os.path.join('.', 'tmpLemma.txt')
 
-        if os.path.exists(tmpLemma):
-            os.system('rm ' + tmpLemma)
+        if os.path.exists(tmpStem):
+            os.system('rm ' + tmpStem)
 
-        os.system('java -Dfile.encoding=UTF-8 -jar ' + jarFarasaSegmenter + ' -l true -i ' + tmp + ' -o ' + tmpLemma)
+        os.system('java -Dfile.encoding=UTF-8 -jar ' + jarFarasaSegmenter + ' -l true -i ' + tmp + ' -o ' + tmpStem)
 
-        string = self.readContent(tmpLemma)
+        string = self.readContent(tmpStem)
 
-        os.system('rm ' + tmpLemma)
+        os.system('rm ' + tmpStem)
         os.system('rm ' + tmp)
 
         words = string.split()
-        stems_dict = []
+        stems_list = []
         for word in words:
             # add new stem to dict
-            stems_dict.append(word)
+            stems_list.append(word)
 
-        return stems_dict
+        return stems_list
 

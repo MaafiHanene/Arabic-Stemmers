@@ -5,7 +5,7 @@ def stem(string):
 
     # split given string into words
     words = string.split()
-    stems_dict = []
+    stems_list = []
 
     arabic_light_stemmer = ArabicLightStemmer()
 
@@ -14,7 +14,7 @@ def stem(string):
         # stem word
         stem_word = arabic_light_stemmer.light_stem(word)
         # add new stem to dict
-        stems_dict.append(stem_word)
+        stems_list.append(stem_word)
 
-    return stems_dict
+    return stems_list
 

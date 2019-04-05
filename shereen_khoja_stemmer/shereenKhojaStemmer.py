@@ -36,10 +36,10 @@ class ShereenKhojaStemmer():
         os.system('rm ' + tmp)
 
         words = string.split()
-        stems_dict = []
+        stems_list = []
         for word in words:
             # add new stem to dict
-            stems_dict.append(word)
+            stems_list.append(word)
 
-        return stems_dict
+        return stems_list
 

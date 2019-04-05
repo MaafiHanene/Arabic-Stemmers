@@ -5,7 +5,7 @@ def stem(string):
 
     # split given string into words
     words = string.split()
-    stems_dict = []
+    stems_list = []
 
     isri_stemmer = ISRIStemmer()
 
@@ -13,7 +13,7 @@ def stem(string):
         # stem word
         stem_word = isri_stemmer.stem(word)
         # add new stem to dict
-        stems_dict.append(stem_word)
+        stems_list.append(stem_word)
 
-    return stems_dict
+    return stems_list
 
