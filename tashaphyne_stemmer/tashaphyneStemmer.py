@@ -5,19 +5,16 @@ def stem(string):
 
     # split given string into words
     words = string.split()
-    stems_dict = {}
-    count = 0
-    
+    stems_dict = []
+
     arabic_light_stemmer = ArabicLightStemmer()
 
-
     for word in words:
-        word_count = 'word'+str(count)
+
         # stem word
         stem_word = arabic_light_stemmer.light_stem(word)
         # add new stem to dict
-        stems_dict[word_count] = stem_word
-        count = count + 1
+        stems_dict.append(stem_word)
 
     return stems_dict
 
