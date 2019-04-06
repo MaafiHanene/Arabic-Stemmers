@@ -23,4 +23,4 @@
 |                |                    | stem_word = isri_stemmer.stem(u"فسميتموها")               |
 |                |                    | print stem_word               |
  
- [ISRI Stemmer](https://www.nltk.org/_modules/nltk/stem/isri.html."ISRI Stemmer")
+ [ISRI Stemmer](https://www.nltk.org/_modules/nltk/stem/isri.html."ISRIStemmer")
