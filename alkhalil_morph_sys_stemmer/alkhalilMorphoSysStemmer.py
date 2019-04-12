@@ -7,7 +7,6 @@ def stem(string):
     # split given string into words
     words = string.split()
     stems_list = []
-    no_result = u'لا توجد نتائج'
 
     for word in words:
 
@@ -22,8 +21,8 @@ def stem(string):
 
         # word to stem not found
         except IndexError:
-            # return no_result = u'لا توجد نتائج'
-            stems_list.append(no_result)
+            # return origin word without stemming
+            stems_list.append(word)
 
     return stems_list
 
