@@ -1,5 +1,23 @@
 # Arabic-Stemmers
 
+# Al Khalil Morpho Sys Stemmer
+ 
+ [Al Khalil Stemmer](http://oujda-nlp-team.net/en/."AlKalilStemmer")
+ 
+ ### Requirements:
+
+ requests package : https://pypi.org/project/requests/
+ beautifulsoup4 package: https://pypi.org/project/beautifulsoup4/
+
+```pyhton
+ # -*- coding: utf-8 -*-
+import alkhalilMorphoSysStemmer
+
+# unicode input
+string = 'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
+# return an array
+stems_list = alkhalilMorphoSysStemmer.stem(string)
+```
 
 # Arabic-Stemming-Toolkit AST (Three (3) stemming algorithms)
  
@@ -61,7 +79,7 @@ stems_list = arabicProcessingCogStemmer.stem(string)
 
 # Assem's Arabic Light Stemmer 
 
- [Assem's stemmer](https://www.arabicstemmer.com/."Assem's stemmer")
+ [Assem's stemmer](https://www.arabicstemmer.com/."AssemsStemmer")
  
  ### Requirements:
  
