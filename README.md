@@ -1,5 +1,13 @@
 # Arabic-Stemmers
 
+Arabic-Stemmers is a proxy that allows access to market arabic stemmers.
+
+## Installation:
+
+pip install -r requirement.txt
+
+## Availbale Stemmers: 
+
 # Al Khalil Morpho Sys Stemmer
  
  [Al Khalil Stemmer](http://oujda-nlp-team.net/en/."AlKalilStemmer")
