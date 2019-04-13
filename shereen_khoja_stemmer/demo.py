@@ -1,6 +1,6 @@
 from shereenKhojaStemmer import ShereenKhojaStemmer as shereen_khoja_stemmer
 
-string = u'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
+string = 'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
 
 stems_list = shereen_khoja_stemmer.stem(shereen_khoja_stemmer, string)
 

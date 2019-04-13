@@ -1,6 +1,6 @@
 import alkhalilMorphoSysStemmer
 
-string = u'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
+string = 'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
 
 stems_list = alkhalilMorphoSysStemmer.stem(string)
 

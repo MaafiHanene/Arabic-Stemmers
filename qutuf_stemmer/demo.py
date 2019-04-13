@@ -1,6 +1,6 @@
 import qutufStemmer
 
-string = u'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
+string = 'السلام عليكم'
 
 stems_list = qutufStemmer.stem(string)
 

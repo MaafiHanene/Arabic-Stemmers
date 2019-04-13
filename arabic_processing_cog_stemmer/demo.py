@@ -1,6 +1,6 @@
 import arabicProcessingCogStemmer
 
-string = u'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
+string = 'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
 
 stems_list = arabicProcessingCogStemmer.stem(string)
 

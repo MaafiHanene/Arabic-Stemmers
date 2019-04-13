@@ -1,6 +1,6 @@
 from arabicStemmingToolkitAlgo2 import ArabicStemmingToolkitStemmerAlgo2 as ast_algo2_stemmer
 
-string = u'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
+string = 'مكتبة لمعالجة الكلمات العربية  وتجذيعها'
 
 stems_list = ast_algo2_stemmer.stem(ast_algo2_stemmer, string)
 
