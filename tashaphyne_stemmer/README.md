@@ -10,7 +10,7 @@ Tashaphyne is an Arabic light stemmer and segmentor. It mainly supports light st
  pip install tashaphyne
 ```
 
-## How to run?
+## How to run
 ### Python
 ```pyhton
 from tashaphyne.stemming import ArabicLightStemmer
