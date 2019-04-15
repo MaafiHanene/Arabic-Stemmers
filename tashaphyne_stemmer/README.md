@@ -9,7 +9,7 @@ Tashaphyne is an Arabic light stemmer and segmentor. It mainly supports light st
 |Author/Affiliation| [Taha Zerrouki](tahadz.com/."Taha_Zerrouki")|
 |License|[GPL](https://github.com/linuxscout/tashaphyne/blob/master/LICENSE."GPL")|
 |Source|[Github](https://github.com/linuxscout/tashaphyne/."tashaphyne")|
-|Link|https://github.com/linuxscout/tashaphyne/|
+|Link|https://pypi.org/project/Tashaphyne/
 
 ## How to install ?
 ```
