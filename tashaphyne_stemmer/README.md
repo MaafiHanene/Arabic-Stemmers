@@ -5,13 +5,16 @@ Tashaphyne is an Arabic light stemmer and segmentor. It mainly supports light st
 - **License**: [GPL](https://github.com/linuxscout/tashaphyne/blob/master/LICENSE."GPL")
 - **Links**: [Github](https://github.com/linuxscout/tashaphyne/)
 
-## How to install
+
+## Usage
+### Python
+#### Install
 ```shell
  pip install tashaphyne
 ```
 
-## How to run
-### Python
+#### Run
+
 ```pyhton
 from tashaphyne.stemming import ArabicLightStemmer
 
