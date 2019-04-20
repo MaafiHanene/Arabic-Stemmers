@@ -10,7 +10,7 @@ An Arabic Morphological Analyzer (Including Stemming and Root Extraction) and Pa
 ### Python
 
 #### Install
-- You can download qutuf souce code from [Here](http://qutuf.com/Downloads/Default.aspx)
+- You can download qutuf souce code from [Here](https://github.com/Qutuf/Qutuf/releases)
 
 
 #### Run

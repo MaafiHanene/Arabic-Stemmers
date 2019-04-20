@@ -10,7 +10,7 @@ pip install -r requirement.txt
 
 # Al Khalil Morpho Sys Stemmer
  
- [Al Khalil Stemmer](http://oujda-nlp-team.net/en/."AlKalilStemmer")
+ [Al Khalil Stemmer](http://oujda-nlp-team.net/en/)
  
  ### Requirements:
 
@@ -29,7 +29,7 @@ stems_list = alkhalilMorphoSysStemmer.stem(string)
 
 # Arabic-Stemming-Toolkit AST (Three (3) stemming algorithms)
  
- [AST](https://github.com/mhmdio/Arabic-Stemming-Toolkit."AST")
+ [AST](https://github.com/mhmdio/Arabic-Stemming-Toolkit)
  
  ### Requirements:
 
@@ -73,7 +73,7 @@ stems_list = ast_algo3_stemmer.stem(ast_algo3_stemmer, string)
 
 # ArabicProcessingCog 
 
- [ArabicProcessingCog](https://github.com/disooqi/ArabicProcessingCog."ArabicProcessingCog")
+ [ArabicProcessingCog](https://github.com/disooqi/ArabicProcessingCog)
 
  ```pyhton
  # -*- coding: utf-8 -*-
@@ -87,7 +87,7 @@ stems_list = arabicProcessingCogStemmer.stem(string)
 
 # Assem's Arabic Light Stemmer 
 
- [Assem's stemmer](https://www.arabicstemmer.com/."AssemsStemmer")
+ [Assem's stemmer](https://www.arabicstemmer.com/)
  
  ### Requirements:
  
@@ -106,7 +106,7 @@ stems_list = assemsArabicLightStemmer.stem(string)
 
 # FARASA
  
- [farasa](http://qatsdemo.cloudapp.net/farasa/demo.html."farasa")
+ [farasa](http://qatsdemo.cloudapp.net/farasa/demo.html)
  
  ### Requirements:
 
@@ -125,7 +125,7 @@ stems_list = farasa_stemmer.stem(farasa_stemmer, string)
 
 # lucene-arabic-analyzer
  
- [lucene-arabic-analyzer](https://github.com/msarhan/lucene-arabic-analyzer."lucene-arabic-analyzer")
+ [lucene-arabic-analyzer](https://github.com/msarhan/lucene-arabic-analyzer)
  
  ### Requirements:
 
@@ -144,7 +144,7 @@ stems_list = lucene_arabic_analyzer_stemmer.stem(lucene_arabic_analyzer_stemmer,
 
 # Natural Language Toolkit: The ISRI Arabic Stemmer
  
- [ISRI Stemmer](https://www.nltk.org/_modules/nltk/stem/isri.html."ISRIStemmer")
+ [ISRI Stemmer](https://www.nltk.org/_modules/nltk/stem/isri.html)
  
  ### Requirements:
  
@@ -163,7 +163,9 @@ stems_list = ntlkIsriStemmer.stem(string)
 
 # Qutuf (قُطُوْف) 
 
- [Qutuf](https://github.com/Qutuf/Qutuf."Qutuf")
+ [Qutuf Repository](https://github.com/Qutuf/Qutuf)
+ 
+ [Qutuf as a Service](https://qutuf.herokuapp.com/)
  
  ### Requirements:
  
@@ -199,7 +201,7 @@ stems_list = shereen_khoja_stemmer.stem(shereen_khoja_stemmer, string)
 
 # Tashaphyne: Arabic Light Stemmer 
 
- [Tashaphyne](https://pypi.org/project/Tashaphyne/."Tashaphyne")
+ [Tashaphyne](https://pypi.org/project/Tashaphyne/)
  
  ### Requirements:
  
